@@ -1,0 +1,58 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.converter-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 320px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #00796b;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  background: #00796b;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #004d40;
+}
+
+.results {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f1f8e9;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.error {
+  color: #d32f2f;
+  font-size: 0.85rem;
+}
+
+

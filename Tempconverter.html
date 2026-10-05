@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter Web</title>
+  <link rel="stylesheet" href="styletemp.css">
+</head>
+<body>
+  <div class="converter-card">
+    <h2>Temperature Converter</h2>
+    <input type="text" id="tempInput" placeholder="Enter value">
+    <select id="unitInput">
+      <option value="C">Celsius (°C)</option>
+      <option value="F">Fahrenheit (°F)</option>
+      <option value="K">Kelvin (K)</option>
+    </select>
+    <button id="convertBtn">Convert</button>
+    <div id="errorMsg" class="error"></div>
+    <div id="results" class="results"></div>
+  </div>
+  <script src="scripttemp.js"></script>
+</body>
+</html>
